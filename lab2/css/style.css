@@ -1,0 +1,182 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+html {
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #252b42;
+  font-weight: 500;
+  height: 100%;
+  line-height: 1;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  height: 80px;
+  max-width: 100%;
+}
+footer {
+  display: flex;
+  background-color: blueviolet;
+  min-height: 40px;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.ft {
+  color: white;
+  font-size: 17px;
+  justify-content: center;
+}
+.logtxt {
+  text-align: center;
+  flex: 1;
+  color: #fff;
+  font-size: 25px;
+}
+.logo {
+  height: 80px;
+  width: auto;
+}
+.signUp {
+  background-image: url("../baner.jpg");
+  background-color: rgb(208, 222, 225);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.signUp__description {
+  padding-top: 15px;
+}
+.description__title {
+  padding: 10px 0;
+  font-size: 60px;
+  text-align: center;
+}
+.description__text {
+  margin: 10px 5px;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.data__text {
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(0 0 0 / 8%);
+  width: 350px;
+  height: 45px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+input[type="radio"] {
+  display: none;
+}
+
+.sex__radio[type="radio"] + .sex__text::before {
+  content: "";
+  border: 1px solid #fff;
+  border-radius: 50%;
+  font-size: 40pt;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  line-height: 0.35em;
+  margin: 4px 8px 8px 8px;
+  padding: 2px;
+  text-align: center;
+  vertical-align: middle;
+}
+.sex__radio[type="radio"]:checked + .sex__text::before {
+  background: #fff;
+}
+.sex__radio[type="radio"]:checked + .sex__text {
+  color: white;
+}
+.button {
+  display: flex;
+  margin-bottom: 15px;
+}
+.button__submit {
+  font-size: 1em;
+  color: #f2f8fc;
+  width: 170px;
+  height: 40px;
+  padding: 10px 20px;
+  background: darkorchid;
+  border: 1px solid #ffffff;
+  border-radius: 13px;
+  cursor: pointer;
+  margin: 5px 10px;
+  box-shadow: 7px 9px 18px #22262a;
+}
+.button__submit:hover {
+  padding: 10px 20px;
+  background: #22264f;
+  border: 1px solid black;
+  border-radius: 13px;
+  cursor: pointer;
+  transition: 1s;
+  box-shadow: 7px 9px 18px #22262a;
+}
+.button__submit:active,
+.button__submit:focus {
+  background-color: #ffffff;
+  color: #22262a;
+}
+.signUp__form {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  margin-top: 40px;
+  grid-template-columns: 200px 400px;
+  grid-template-rows: repeat(3, 60px) 120px repeat(2, 60px);
+  align-items: center;
+  grid-gap: 10px;
+}
+.form--ft {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  margin-top: 40px;
+}
+.area--ft {
+  width: 450px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+main {
+  min-height: 600px;
+}
