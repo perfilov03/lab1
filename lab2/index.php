@@ -36,29 +36,29 @@
                 Ваш E-mail
             </label>
             <input class="data__text" id="mail" type="email" name="mail" placeholder="Введите почту">
-            <label for="LoveAlbum" class="form__data data">
+            <label for="appeal" class="form__data data">
                 Тип обращения
             </label>
-            <select class="data__text" id="LoveAlbum" name="LoveAlbum">
+            <select class="data__text" id="appeal" name="appeal">
                 <option selected disabled="disabled">Тип обращения</option>
-                <option value="TFM">Жалоба</option>
-                <option value="TFM">Предложение</option>
-                <option value="BTW">Благодарность</option>
+                <option value="complaint">Жалоба</option>
+                <option value="offer">Предложение</option>
+                <option value="gratitude">Благодарность</option>
             </select>
-            <label for="" class="form-label">Текст обращения</label>
-            <textarea class="area" name="" id="" rows="7"></textarea>
+            <label for="area" class="form-label">Текст обращения</label>
+            <textarea class="area" name="area" id="area" rows="7"></textarea>
             <span class="sex__name">
                 Вариант ответа
             </span>
             <span class="sex__variant">
                 <label>
-                    <input class="sex__radio" type="radio" name="sex" value="man">
+                    <input class="sex__radio" type="radio" name="answer" value="sms">
                     <span class="sex__text">
                         SMS
                     </span>
                 </label>
                 <label>
-                    <input class="sex__radio" type="radio" name="sex" value="woman">
+                    <input class="sex__radio" type="radio" name="answer" value="email">
                     <span class="sex__text">
                         E-Mail
                     </span>

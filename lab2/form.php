@@ -32,7 +32,7 @@
             </p>
         </article>
         <form action="//httpbin.org/post" method="post" class="form--ft">
-            <textarea class="area--ft" name="" id="" rows="13">
+            <textarea class="area--ft" name="area" id="area" rows="13">
                 <?php
                     print_r($answer);
                 ?>
