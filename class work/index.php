@@ -239,9 +239,103 @@
             <input type="email" name="email" value="<?= $email; ?>">
             <button type="submit">Отправить</button>
         </form> -->
-            <a href="index.php?int=13">Нажать</a>
+            <!-- <a href="index.php?int=13">Нажать</a> -->
             <?php
-                if (isset($_GET['int'])) echo $_GET['int']
+                // if (isset($_GET['int'])) echo $_GET['int']
+                // $a = 10;
+                // $b = &$a;
+
+                // $b = 'a';
+                // echo $$b;
+                // '$'.$b => $a;
+
+                // $a = 3;
+                // $b = 5;
+                // $c = 8;
+                // // list($a, $b, $c)= 
+                // f1($a, $b, $c);
+                // echo "\$a = $a, \$b = $b, \$c = $c";
+                // function f1 (&$x, &$y, &$z){
+                //     $x++;
+                //     $y--;
+                //     $z = $z;
+                //     // return array($x, $y, $z);
+                // }
+
+                // $trig = 'sin';
+                // $y = 30;
+                // eval("\$z = $trig($y/180*pi())");
+                // $x = $y/180*pi();
+                // $z = $trig($x);
+
+                // echo "\$z = $trig($x), \$z = ".$trig($x);
+
+                // $XVI="Иван Васильевич";
+                // $XVIII="Пётр Алексеевич";
+                // $XIX="Николай Павлович";
+
+                // file_put_contents("new.txt","");
+
+                // file_put_contents("test.txt","12345");
+
+                // echo preg_replace('#a.b#', '!', 'ahb acb aeb aeeb adcb axeb'); //1 задача
+
+                // echo "<BR>";
+
+                // echo preg_replace('#a..a#', '!', 'aba aca aea abba adca abea'); // 2 задача
+
+                // echo "<BR>";
+
+                // echo preg_replace('#ab.a#', '!', 'aba aca aea abba adca abea'); // 3 задача
+
+                // echo "<BR>";
+
+                // echo preg_replace('#(ab)+#', '!', 'ab abab abab abababab abea'); //7 задача
+
+                // echo "<BR>";
+
+                // echo preg_replace('#2\+*3#', '!', '23 2+3 2++3 2+++3 445 667'); // 11 задача
+
+
+                // echo preg_replace('#<p>(.+?)</p>#', '!', 'bbb <p> hello </p> <p> world </p> eee'); //2 задача ч 2
+
+                // echo "<BR>";
+
+                // echo preg_replace('#a\\\\a#', '!', 'a\a abc'); // 5 задача ч 2
+
+                // echo "<BR>";
+
+                // echo preg_replace('#a(ee|x+)a#', '!', 'aeeea aeea aea axa axxa axxxa'); //7 задача ч 2
+
+                // echo "<BR>";
+
+                // preg_match_all('#\d#', 'gnjr 6hm 7jgo 6jfr', $m); 
+
+                // echo(array_sum($m[0]));
+
+                // echo "<BR>";
+
+                // echo preg_replace('#(\d{2})\-(\d{2})\-(\d{4})#', '$3.$2.$1','31-12-2014');
+
+                // echo "<BR>";
+
+                // echo preg_match('#^https?://[a-z0-9-]+\.[a-z]{2,}$#', 'https://site.com');
+
+                // echo "<BR>";
+
+                // echo preg_replace('#(?<!b)aaa#', '!', 'baaa, waaa');
+
+                // echo preg_replace('/(?<!\*)\*(?!\*)/', '!', 'aaa * bbb ** eee * **');
+                // echo "<br>";
+
+                // echo preg_replace('/a\d+a/','!','aa a1a a22a a333a a4444a a55555a aba aca');
+
+                // echo "<br>";
+                // echo preg_replace('/ab*a/','!','aa aba abba aca aea abba adca abea');
+
+                // echo "<br>";
+
+                // echo preg_match('/[\w._-]+@[\w._-]+\.[a-z]{2,5}/u','vfgdfdckf mymail@mail.ru jfjiidgrcg gvfkldof');
             ?>
 </body>
 </html>
